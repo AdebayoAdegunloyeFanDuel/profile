@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">oh-my-zsh</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>bayo</span><span class="at">@</span><span
+                                class="path">/home/BeeBayo/</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Bayo</p>
+            <p class="text-title desktop-view">Adegunloye</p>
+            <p class="text-title mobile-view">Bayo Adegunloye</p>
+            <div class="social-icons">
+                <a target="_blank" href="https://github.com/adebayoadegunloyefanduel">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/adebayo-bayo-adegunloye-9a18ba55/">
+                    <img class="title-logo" src="static/images/linkedin-logo.svg">
+                </a>
+                <a target="_blank" href="https://twitter.com/beewhy001">
+                    <img class="title-logo" src="static/images/twitter.svg">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/bayohunter001/">
+                    <img class="title-logo" src="static/images/insta.svg">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">Quality Assurance Engineer with more than
+                three years of experience with great attention to detail and a commitment to developing and implementing continuous
+                improvement initiatives through the collection and analysis of data and converting it into actionable information.</p>
+            <p class="text-content">
+                I work at FanDuel Edinburgh on the integration team. I have a deep understanding of
+                continuous test and integration and release engineering.</p>
+
+            <p class="text-content">I studied Business Information Technology <a href="https://www.napier.ac.uk/">Edinburgh Napier</a>.
+            </p>
+
+            <p class="text-content">I've been learning to play the guitar since Feb 2020, right after the COVID19 lockdown, enjoy solo traveling and
+                <a href="https://medium.com/@beebayoadegunloye">am an active blogger</a>, where I write about my work, travel
+                and side projects. I'm extremely enthusiastic about life, coffee drinker
+               and I'm always on the hunt for learning something new.</p>
+
+            <p class="text-content">You can find me on <a href="https://www.linkedin.com/in/adebayo-bayo-adegunloye-9a18ba55/">LinkedIn</a>,
+                or email me <a href="mailto:beewhy001@gmail.com?Subject=Hello%20Rish%20-from-website" target="_top">here</a>.
+            </p>
+
+            <p class="text-content">Let's get in touch!</p>
+
+            <p class="text-content">Bayo Adegunloye</p>
+
+
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}
