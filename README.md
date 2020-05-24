@@ -5,7 +5,7 @@ This is [my personal corner on the web](). To be continued
 
 # Screenshots
 <p float="left">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/home.png" width="400">
+  <img src="https://raw.githubusercontent.com/AdebayoAdegunloyeFanDuel/profile/master/screenshots/home.png" width="400">
 </p>
 
 # Technology
