@@ -1,4 +1,3 @@
-# www.rish.space
 
 This is [my personal corner on the web](). To be continued
 
