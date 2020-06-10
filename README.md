@@ -1,5 +1,5 @@
 
-This is [my personal corner on the web](). To be continued
+This is [my personal corner on the web]() Built with Python Flask and JS. To be continued
 
 
 # Screenshots
